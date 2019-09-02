@@ -1,0 +1,40 @@
+<!-- Tela do Fórum
+Local onde se pode estar acrescentando algum fórum ou poder entrar em um fórum existente-->
+
+<div *ngIf='telaDoComando'><button type="button" class="btn btn-outline-secondary trocadebotao"
+    (click)="voltarParaTelaInicail()">Menu
+    Inicial</button></div>
+<div *ngIf='telaDoComando' class="pagFo ">
+  <h1>Comandos</h1>
+  <div class="centro"><button type="button" class="btn btn-secondary btn-lg btn-block changeFo"
+      (click)="cadastroComando()">Adicionar um comando</button> </div>
+  <div *ngFor="let comandos of comandos; let i = index" class="tituloForum">
+    Linguagem: {{comandos.linguagem}}
+    <p>Comando: {{comandos.comando}}</p>
+    <p>Descrição: {{comandos.descricao}}</p>
+    <p>Exemplo: {{comandos.exemplo}}</p>
+  </div>
+</div>
+
+
+<!-- Tela de cadastro do forum-->
+
+<div *ngIf='cadascomandoCheck' class="centro"><button type="button" class="btn btn-outline-secondary centro"
+    (click)="voltarParaTelaInicail()">Menu Inicial</button></div>
+<div *ngIf='cadascomandoCheck' class="form-group centers1 corfont">
+  <h1>CADASTRAR</h1>
+  <label for="exampleInputEmail1">Linguagem</label>
+  <input type="text" class="form-control" id="exampleInputcomando" aria-describedby="comandoHelp"
+    [(ngModel)]='linguagemCheck'>
+  <label for="exampleInputEmail1">Comando</label>
+  <input type="text" class="form-control" id="exampleInputcomando" aria-describedby="comandoHelp"
+    placeholder="Coloque o título ou o tema desse fórum" [(ngModel)]='coCheck'>
+  <label for="exampleInputEmail1">DESCRIÇÃO</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" [(ngModel)]='descriCheck'></textarea>
+  <label for="exampleInputEmail1">Exemplo</label>
+  <textarea class="form-control" id="exampleFormControlTextarea2" rows="10" [(ngModel)]='exemploCheck'></textarea>
+
+  <p></p>
+  <button type="button" class="btn btn-secondary btn-lg btn-block change"
+    (click)="cadastrarComandos()">Cadastrar</button>
+</div>

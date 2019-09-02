@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url('./assets/im-500214330.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  bottom: 0;
+  color: black;
+  left: 0;
+  overflow: auto;
+
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}

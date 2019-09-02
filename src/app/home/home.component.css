@@ -1,0 +1,43 @@
+#tentativa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #1c1c1fb3;
+  width: 20%;
+  height: 40%;
+  text-align: center;
+
+}
+
+.centro {
+  float: right;
+  margin-top: 0px;
+  margin-right: 0px;
+
+}
+
+.centers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #444442;
+  border-radius: 20px;
+  width: 24%;
+  height: 30%;
+  color: white;
+}
+
+.centers1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #444442;
+  border-radius: 20px;
+  width: 24%;
+  height: 40%;
+  color: white;
+}

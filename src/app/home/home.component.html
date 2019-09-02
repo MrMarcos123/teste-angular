@@ -1,0 +1,57 @@
+<!-- TELA DE LOGIN -->
+<div *ngIf="loginCheck" class='container centers'>
+  <h1>Mentality</h1>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+      placeholder="Enter email" [(ngModel)]='email'>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" [(ngModel)]='senha'>
+  </div>
+  <button (click)="login()" class="btn btn-primary">Submit</button>
+</div>
+
+<!-- BOTOES DE LOGIN E CADASTRO -->
+<div *ngIf='cadastroCheck' class="centro"><button type="button" class="btn btn-outline-secondary centro"
+    (click)="trocarTela()">Logar-se</button></div>
+
+<div *ngIf='loginCheck' class="centro"><button type="button" class="btn btn-outline-secondary centro"
+    (click)="trocarTela()">Cadastrar-se</button></div>
+
+<!-- TELA DE CADASTRO -->
+<div *ngIf='cadastroCheck' class='container centers1'>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+      placeholder="Enter your name" [(ngModel)]='nome_cadastro'>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+      placeholder="Enter e-mail" [(ngModel)]='email_cadastro'>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"
+      [(ngModel)]='senha_cadastro'>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Confirm Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password"
+      [(ngModel)]='confirm_senha_cadastro'>
+  </div>
+  <button (click)="register()" class="btn btn-primary">Cadastrar-se</button>
+
+
+</div>
+
+
+<!-- DIRETIVAS --------
+
+*ngIf - DIRETIVA CONDICIONAL
+(click) - DIRETIVA DE ATRIBUIÇÃO DE FUNÇÃO A UM ELEMENTO HTML
+
+-->

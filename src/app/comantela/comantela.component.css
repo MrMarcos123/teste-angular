@@ -1,0 +1,173 @@
+.centers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #343948ab;
+  border-radius: 20px;
+  width: 35%;
+  height: 38%;
+}
+
+.centers1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #343948ab;
+  border-radius: 20px;
+  width: 35%;
+  height: 73%;
+}
+
+.change {
+  background-color: #1c1c1fb3;
+  border-color: #1c1c1fb3;
+  width: 100%;
+  height: 9%;
+  margin: 4px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: 222040e6;
+  border-radius: 20px;
+  width: 40%;
+  height: 35%;
+}
+
+.pagFo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #343948ab;
+  border-radius: 20px;
+  width: 85%;
+  height: 85%;
+  overflow: auto;
+}
+
+.boFo {
+  background-color: #1c1c1fb3;
+  border-color: #1c1c1fb3;
+  width: 100%;
+  height: 10%;
+  margin: 4px;
+}
+
+.changeFo {
+  background-color: #1c1c1fb3;
+  border-color: #1c1c1fb3;
+  width: 99%;
+  height: 20%;
+  margin: 8px;
+}
+
+.corfont {
+  color: white;
+}
+
+.descri {
+  text-align: left
+}
+
+.tituloForum {
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: left;
+  font-size: 28px;
+  padding: 20px;
+  width: 99%;
+  margin: 4px;
+  background: #4f525c;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 4px;
+  background: #4f525c;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  border: 1px solid #1c1c1fb3;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1c1c1fb3;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1c1c1fb3;
+}
+
+#divBusca {
+  background-color: #2F4F4F;
+  border: solid 1px;
+  border-radius: 15px;
+  width: 300px;
+}
+
+#txtBusca {
+  float: left;
+  background-color: transparent;
+  padding-left: 5px;
+  font-style: italic;
+  font-size: 18px;
+  border: none;
+  height: 32px;
+  width: 260px;
+}
+
+.trocadobotao {
+  text-align: left;
+  top: 0%;
+}

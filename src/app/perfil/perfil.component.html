@@ -1,0 +1,14 @@
+<div *ngIf='telaDoPerfil'><button type="button" class="btn btn-outline-secondary trocadebotao"
+    (click)="voltarParaTelaInicail()">Menu
+    Inicial</button></div>
+<div>
+
+
+</div>
+<div *ngIf='telaDoPerfil' class="pagFo ">
+  <h1>Perfil</h1>
+  <div class="tituloForum">
+    Nome: {{perfil.nome}}
+    <p>E-mail: {{perfil.email}}</p>
+  </div>
+</div>

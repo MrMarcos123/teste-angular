@@ -1,0 +1,74 @@
+.centers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #343948ab;
+  border-radius: 20px;
+  width: 35%;
+  height: 38%;
+}
+
+.centers1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #343948ab;
+  border-radius: 20px;
+  width: 35%;
+  height: 28%;
+}
+
+.change {
+  background-color: #1c1c1fb3;
+  border-color: #1c1c1fb3;
+  width: 100%;
+  height: 20%;
+  margin: 4px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: 222040e6;
+  border-radius: 20px;
+  width: 40%;
+  height: 35%;
+}
+
+.pagFo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #343948ab;
+  border-radius: 20px;
+  width: 85%;
+  height: 85%;
+}
+
+.boFo {
+  background-color: #1c1c1fb3;
+  border-color: #1c1c1fb3;
+  width: 100%;
+  height: 10%;
+  margin: 4px;
+}
+
+.changeFo {
+  background-color: #1c1c1fb3;
+  border-color: #1c1c1fb3;
+  width: 99%;
+  height: 20%;
+  margin: 8px;
+}
+
+.corfont {
+  color: white;
+}

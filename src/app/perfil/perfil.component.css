@@ -1,0 +1,11 @@
+.tituloForum {
+  border-radius: 4px;
+  border: none;
+  color: #FFFFFF;
+  text-align: left;
+  font-size: 28px;
+  padding: 20px;
+  width: 99%;
+  margin: 4px;
+  background: #4f525c;
+}
